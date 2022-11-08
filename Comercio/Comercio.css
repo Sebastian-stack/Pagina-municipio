@@ -22,33 +22,38 @@ body{
 .encabezado{
     background-color: white;
     font-size: 19px;
+    margin-bottom: 20px;
   }
 
 .nav-link{
-    color: black; 
-   }
-
-.arreglar{
-    margin: 2%;
-    background-color: white;
-    width: 45%;
-    float: left;
-    display: inline;
-    border-style: solid;
+    color: black;
 }
 
-.arreglar2{
-    margin: 2%;
-    background-color: white;
-    width: 45%;
-    float: right;
-    display: inline;
-    border-style: solid;
+.Fila{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  padding-bottom: 30px;
+
 }
+
+.Foto{
+    background-color: white;
+    width: 500px;
+    border-style: solid;
+    border-radius: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 h1{
     font-weight: bold ;
     font-family: FuenteTittle;
+    padding-bottom: 10px;
 }
 
 .card-text{
@@ -68,8 +73,5 @@ ul{
 }
 
 .tarjetitu{
-    text-align: center;
-    margin-right: 5cm ;
-    margin-left: 5cm;
-    font-family: FuenteTittle; 
+    font-family: FuenteTittle;
 }

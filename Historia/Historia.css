@@ -5,47 +5,45 @@
 
 @font-face{
   font-family: FuenteText;
-src: url("../tipografias/umunu.otf");
+  src: url("../tipografias/umunu.otf"); 
 }
 
 @font-face{
   font-family: FuenteNav;
-src: url("../tipografias/pagnua.otf");
+  src: url("../tipografias/pagnua.otf");
 }
 
 
 h1{
-    font-weight: bold ;
-    font-family: FuenteTittle;
+  font-weight: bold ;
+  font-family: FuenteTittle;
 }
 
 p{
-    margin-right: 5cm ;
-    margin-left: 5cm;
-    font-size: 19px;
-    font-family: FuenteText;
-    text-align: center;
+  margin-right: 5cm ;
+  margin-left: 5cm;
+  font-size: 19px;
+  font-family: FuenteText;
+  text-align: center;
 }
 
 body{
-   background-color: #F2E8DF ;
+  background-color: #F2E8DF ;
 }
 
 .nav-link{
  color: black;
-    
-  
 }
 
 .encabezado{
-    background-color: white;
-    font-size: 19px;
-  }
+  background-color: white;
+  font-size: 19px;
+}
 
-  ul{
-    margin-right: 2cm ;
-    margin-left: 2cm;
-    font-size: 22px;
-    font-family: FuenteText;
-    text-align: justify;
-  }
+ul{
+  margin-right: 2cm ;
+  margin-left: 2cm;
+  font-size: 22px;
+  font-family: FuenteText;
+  text-align: justify;
+}
